@@ -1,4 +1,4 @@
-public class AnatomyClasses {
+public class AnatomyClass {
     public static void main(String[] args) {
         String firstName = "Lucas";
         String lastName = "Freitas";
