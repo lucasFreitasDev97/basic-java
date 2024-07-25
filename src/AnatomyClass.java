@@ -7,8 +7,7 @@ public class AnatomyClass {
         System.out.println(completeName(firstName, lastName));
     }
 
-   public static String completeName(String firstName, String lastName)
-   {
-       return "My name is " + firstName + " " + lastName;
-   }
+    public static String completeName(String firstName, String lastName) {
+        return "My name is " + firstName + " " + lastName;
+    }
 }
