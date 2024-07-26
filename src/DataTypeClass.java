@@ -17,7 +17,7 @@ public class DataTypeClass {
 
         byte age = 27;
         short year = 2024;
-        int products = 504378; // Don't start with 0
+        int products = 504_378; // Don't start with 0
         long stores = 6_674_521_430L; // Don't start with 0
         float rate = 2.75F;
         double value = 5_430.65;
