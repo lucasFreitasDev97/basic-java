@@ -30,5 +30,9 @@ public class DataTypeClass {
         System.out.println("Import Rate: U$ " + rate);
         System.out.println("Value: U$ " + value);
         System.out.println("Company is Active? " + isActive);
+
+        // Const
+        final double PI_VALUE = 3.14;
+        System.out.println("PI value is: " + PI_VALUE);
     }
 }
