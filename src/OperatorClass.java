@@ -2,7 +2,7 @@ public class OperatorClass {
     public static void main(String[] args) {
         int number01 = 500;
         int number02 = 340;
-
+        int number03 = 400;
         //===============ARITHMETICS===============//
         int sumValue = number01 + number02; //  -> +
         int subtractionValue = number01 - number02; // -> -
@@ -35,5 +35,16 @@ public class OperatorClass {
         System.out.println("=====================");
         String valueBooleanWithTernary = number01 > number02 ? "Number 01 is bigger than Number 02" : "Number 01 is smaller than Number 02";
         System.out.println(valueBooleanWithTernary);
+
+        //===========Comparison====================//
+        System.out.println("=====================");
+        System.out.println("Comparison Operators");
+        System.out.println("=====================");
+        if (number01 > number02 && number01 > number03){ // all conditions need be true
+            System.out.println("conditional true");
+        }
+        if (number01 > number02 || number01 < number03){ // one of the conditions need be true
+            System.out.println("conditional true");
+        }
     }
 }
