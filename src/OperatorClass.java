@@ -23,6 +23,10 @@ public class OperatorClass {
         System.out.println(" -> " + number01 + " / " + number02 + " = " + formattedResultDivision);
 
         //==============INCREMENT=====================//
-
+        System.out.println("=====================");
+        System.out.println("Increment and Decrement Operators");
+        System.out.println("=====================");
+        System.out.println(number01 + " plus(++) = " + ++number01);
+        System.out.println(number02 + " less(--) = " + --number02);
     }
 }
