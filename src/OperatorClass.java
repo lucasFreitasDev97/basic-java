@@ -33,7 +33,7 @@ public class OperatorClass {
         System.out.println("=====================");
         System.out.println("Ternaries Operators");
         System.out.println("=====================");
-        String valueBooleanWithTernary = number01 > number02 ? "Number 01 is bigger than Number 02": "Number 01 is smaller than Number 02";
+        String valueBooleanWithTernary = number01 > number02 ? "Number 01 is bigger than Number 02" : "Number 01 is smaller than Number 02";
         System.out.println(valueBooleanWithTernary);
     }
 }
