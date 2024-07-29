@@ -28,5 +28,12 @@ public class OperatorClass {
         System.out.println("=====================");
         System.out.println(number01 + " plus(++) = " + ++number01);
         System.out.println(number02 + " less(--) = " + --number02);
+
+        //============Ternaries=====================//
+        System.out.println("=====================");
+        System.out.println("Ternaries Operators");
+        System.out.println("=====================");
+        String valueBooleanWithTernary = number01 > number02 ? "Number 01 is bigger than Number 02": "Number 01 is smaller than Number 02";
+        System.out.println(valueBooleanWithTernary);
     }
 }
